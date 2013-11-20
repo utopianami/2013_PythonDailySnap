@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>DailySnap</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/signup.css" >
+</head>
+
+<body>
+<div class="bg"></div>
+<div class="box">
+    <section class="sectionBox">
+        <header>
+            <h1 id="logo">DailySnap</h1>
+        </header>
+
+        <div class="insertBox">
+                <form method="POST" id="login-form" action="{{url_for('users.register')}}">
+                Sign Up
+                <p><label for="id_email">e-mail : </label> <input name="email" maxlength="30" type="text" id="id_email"></p>
+                <p><label for="id_password">password : </label> <input type="password" name="password" id="id_password"></p>
+
+                <p>
+                    <input type="submit" class="signUp" value="Sign Up">
+                </p>
+            </form>
+
+        </div>
+    </section>
+</div>
+
+</body>
+</html>

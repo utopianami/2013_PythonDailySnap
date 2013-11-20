@@ -1,0 +1,57 @@
+
+
+body{
+    background: url("http://www.corporateintelligencebureau.com/wpimages/wpe2efb33d_06.png");
+    text-align: center;
+    color: gray;
+}
+
+
+#logo{
+    padding: 10px 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: lightskyblue;
+    font-size: 40px;
+}
+
+.sign_button{
+    font-weight: bold;
+    color: gray;
+    width: 20em;
+    height: 3em;
+    border: none;
+    font-size: 8px;
+    border-radius: 0.7em;
+    background-color: lightskyblue;
+}
+
+#id_username, #id_email, #id_password{
+    width: 10em;
+    height: 2em;
+    border: 2px gray;
+    border-radius: 0.7em;
+}
+
+
+.sectionBox{
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: block;
+    width: 400px;
+    margin: auto auto;
+    position: relative;
+    border: dodgerblue;
+    font-size: 20px;
+}
+
+.insertBox{
+    color: gray;
+    padding-bottom: 10px;
+}
+
+#signup{
+    text-decoration : none;
+    font-size: 13px;
+    color: gray;
+}

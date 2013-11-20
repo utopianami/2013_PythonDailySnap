@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Snap</title>
+    <link rel="stylesheet" type="text/css" href="static/css/flow.css" >
+    <link rel="stylesheet" type="text/css" href="static/css/button.css" >
+    <link rel="stylesheet" type="text/css" href="static/css/snap.css" >
+    <link rel="stylesheet" type="text/css" href="static/css/write.css" >
+    <script src="static/js/snap.js"></script>
+    <script src="static/js/write.js"></script>
+
+</head>
+<body>
+    <div id = "bg"></div>
+    <div id = "write">
+        <h1>오늘의 찰칵은 ? </h1>
+        <div>
+            <form method="post" enctype="multipart/form-data" action="{{url_for('snap.upload')}}" >
+                 제목 : <input type="text" name="title" size=40> <br />
+                <textarea name="mini" rows="10" cols="50">글자를 미리 넣어보자</textarea><br />
+                <input type="file" name="snap">
+                <input type="submit" value="done">
+            </form>
+        </div>
+        <button onclick="hideWrite('write', 'bg');">닫기</button>
+    </div>
+    <div id="top">
+        <div id = "moveLeft">moveLeft</div>
+        <div id = "mid">
+            <div id = "topButton">
+                <a onclick="showWrite('write', 'bg');" class="hi-icon hi-icon-pencil">write</a>
+            </div>
+            <div id="flow">
+                <ul class="snap moreStyle">
+                    {%  for snap in snapList %}
+                    <li>
+                        <figure>
+                            <div><img src="static/uploads/{{snap.img}}" alt="img05"></div>
+                             <figcaption>                        
+                                <h3>{{ snap.title }}</h3>
+                                <span>{{ snap.mini }}</span>
+                                <a href="http://dribbble.com/shots/1116775-Safari">Read More</a>
+                             </figcaption>
+                        </figure>
+                    </li>
+                    {% endfor %}
+                    <li>
+                        <figure>
+                            <div><img src="static/images/5.png" alt="img05"></div>
+                             <figcaption>
+                                <h3>11/3</h3>
+                                <span>밤 막걸리야~~~~~~~밤먹거리는 꿀맛같다. @고속터미널 서래전</span>
+                                <a href="http://dribbble.com/shots/1116775-Safari">Read More</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+    
+                    <li>
+                        <figure>
+                            <div class="image">
+                                <img src ="http://kmomnews.hankyung.com/kmomdata/images/photo/201112/08c1d05365da57e3ff9c93b06ea66b85.jpg">
+                            </div>
+                            <figcaption>
+                                <h3>서태지 콘서트 </h3>
+                                <span>서태지 콘서트에 갔다. take one과 함께 대장이 등장할때...눈물이 날 것 같았다.@상암월드컵경기장</span>
+                                <a href="http://dribbble.com/shots/1118904-Game-Center">Read More</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                                        <li>
+                        <figure>
+                            <div><img src="static/images/5.png" alt="img05"></div>
+                             <figcaption>
+                                <h3>11/3</h3>
+                                <span>밤 막걸리야~~~~~~~밤먹거리는 꿀맛같다. @고속터미널 서래전</span>
+                                <a href="http://dribbble.com/shots/1116775-Safari">Read More</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+    
+                    <li>
+                        <figure>
+                            <div class="image">
+                                <img src ="http://kmomnews.hankyung.com/kmomdata/images/photo/201112/08c1d05365da57e3ff9c93b06ea66b85.jpg">
+                            </div>
+                            <figcaption>
+                                <h3>서태지 콘서트 </h3>
+                                <span>서태지 콘서트에 갔다. take one과 함께 대장이 등장할때...눈물이 날 것 같았다.@상암월드컵경기장</span>
+                                <a href="http://dribbble.com/shots/1118904-Game-Center">Read More</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+                                        <li>
+                        <figure>
+                            <div><img src="static/images/5.png" alt="img05"></div>
+                             <figcaption>
+                                <h3>11/3</h3>
+                                <span>밤 막걸리야~~~~~~~밤먹거리는 꿀맛같다. @고속터미널 서래전</span>
+                                <a href="http://dribbble.com/shots/1116775-Safari">Read More</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+    
+                    <li>
+                        <figure>
+                            <div class="image">
+                                <img src ="http://kmomnews.hankyung.com/kmomdata/images/photo/201112/08c1d05365da57e3ff9c93b06ea66b85.jpg">
+                            </div>
+                            <figcaption>
+                                <h3>서태지 콘서트 </h3>
+                                <span>서태지 콘서트에 갔다. take one과 함께 대장이 등장할때...눈물이 날 것 같았다.@상암월드컵경기장 </span>
+                                <a href="http://dribbble.com/shots/1118904-Game-Center">Read More</a>
+                            </figcaption>
+                        </figure>
+                    </li>
+    
+                </ul>
+            </div>
+        </div>
+        <div id = "moveRight">moveRight</div>
+    </div>
+    
+    <div id="footer">
+        <ul id="introduce">
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+        </ul>
+    </div>
+
+
+
+
+</body>
+</html>

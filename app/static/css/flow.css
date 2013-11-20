@@ -1,0 +1,59 @@
+html{
+    background-color: #f06060;
+
+}
+
+#top {
+    margin-top:10px;
+    width: 100%;
+    height: auto;
+}
+#top:after {
+    content: '';
+    display:block;
+    clear:both;
+}
+
+#moveLeft{
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    line-height: 100px;
+    text-align:right;
+}
+#mid{
+    width: 600px;
+    margin: 0 auto;
+}
+#moveRight{
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    line-height: 100px;
+    text-align:left;
+}
+
+#topButton{
+    top: 7%;
+    left : 20%;
+    position: fixed;
+    z-index: 1;
+}
+
+#month{
+    background-color:white;
+    float: left;
+    margin-top:10px;
+    height: 90px;
+    width: 90px;
+    z-index: 1;
+    border-radius:100px;
+    text-align:justify;
+    content: "\e00b";
+}
