@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Daily Snap</title>
-    <link rel="stylesheet" type="text/css" href="static/css/flow.css" >
-    <link rel="stylesheet" type="text/css" href="static/css/button.css" >
-    <link rel="stylesheet" type="text/css" href="static/css/snap.css" >
-    <link rel="stylesheet" type="text/css" href="static/css/write.css" >
-    <script src="static/js/snap.js"></script>
-    <script src="static/js/write.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/flow.css" >
+    <link rel="stylesheet" type="text/css" href="/static/css/button.css" >
+    <link rel="stylesheet" type="text/css" href="/static/css/snap.css" >
+    <link rel="stylesheet" type="text/css" href="/static/css/write.css" >
+    <script src="/static/js/snap.js"></script>
+    <script src="/static/js/write.js"></script>
 
 </head>
 <body>
@@ -18,7 +18,7 @@
         <div>
             <form method="post" enctype="multipart/form-data" action="{{url_for('snap.upload')}}" >
                  제목 : <input type="text" name="title" size=40> <br />
-                <textarea name="mini" rows="10" cols="50">글자를 미리 넣어보자</textarea><br />
+                <textarea name="mini" rows="10" cols="50"></textarea><br />
                 <input type="file" name="snap">
                 <input type="submit" value="done">
             </form>
@@ -26,17 +26,21 @@
         <button onclick="hideWrite('write', 'bg');">닫기</button>
     </div>
     <div id="top">
-        <div id = "moveLeft">moveLeft</div>
+        <div id = "moveLeft"><img src="/static/images/moveleft.png"></div>
         <div id = "mid">
             <div id = "topButton">
                 <a onclick="showWrite('write', 'bg');" class="hi-icon hi-icon-pencil">write</a>
             </div>
+            <div class = "date">
+                12월
+            </div>
+
             <div id="flow">
                 <ul class="snap moreStyle">
                     {%  for snap in snapList %}
                     <li>
                         <figure>
-                            <div><img src="static/uploads/{{snap.img}}" alt="img05"></div>
+                            <div><img src="/static/uploads/{{snap.img}}" alt="{{snap.img}}"></div>
                              <figcaption>                        
                                 <h3>{{ snap.title }}</h3>
                                 <span>{{ snap.mini }}</span>
@@ -47,7 +51,7 @@
                     {% endfor %}
                     <li>
                         <figure>
-                            <div><img src="static/images/5.png" alt="img05"></div>
+                            <div><img src="/static/images/5.png" alt="img05"></div>
                              <figcaption>
                                 <h3>11/3</h3>
                                 <span>밤 막걸리야~~~~~~~밤먹거리는 꿀맛같다. @고속터미널 서래전</span>
@@ -70,7 +74,7 @@
                     </li>
                                         <li>
                         <figure>
-                            <div><img src="static/images/5.png" alt="img05"></div>
+                            <div><img src="/static/images/5.png" alt="img05"></div>
                              <figcaption>
                                 <h3>11/3</h3>
                                 <span>밤 막걸리야~~~~~~~밤먹거리는 꿀맛같다. @고속터미널 서래전</span>
@@ -93,7 +97,7 @@
                     </li>
                                         <li>
                         <figure>
-                            <div><img src="static/images/5.png" alt="img05"></div>
+                            <div><img src="/static/images/5.png" alt="img05"></div>
                              <figcaption>
                                 <h3>11/3</h3>
                                 <span>밤 막걸리야~~~~~~~밤먹거리는 꿀맛같다. @고속터미널 서래전</span>
@@ -118,17 +122,18 @@
                 </ul>
             </div>
         </div>
-        <div id = "moveRight">moveRight</div>
-    </div>
-    
-    <div id="footer">
-        <ul id="introduce">
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-        </ul>
+        <div id = "moveRight"><img src="/static/images/moveright.png"></div>
     </div>
 
+    <div id="footer">
+        <ul id="introduce">
+            <li><a href="#">FINGQOOQ Inc. 2013</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">How it Works</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">help</a></li>
+        </ul>
+    </div>
 
 
 
