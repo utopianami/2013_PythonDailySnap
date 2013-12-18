@@ -15,11 +15,7 @@ def signUp():
 
 @mod.route('/register', methods=['POST'])
 def register():
-    email = request.form['email']
-    password = request.form['password']
-    user = User.query.filter_by(userEmail = email).first()
-
-    if (user): 
+    if (User.query.filter_by(userEmail = request.form['email']).first()):
         return 'exist'
     else:
         newUser = User(request.form['email'], request.form['password'])
@@ -33,12 +29,12 @@ def login():
     if request.method == 'POST':
         email = request.form['email']
         password = request.form['password']
-
         user = User.query.filter_by(userEmail = email).first()
+
         if user == None:
             return 'no exist'
         if user.userPassword == password:
-            session['user'] = email
+            session['user_id'] = user.getId()
             return redirect(url_for('flow.flows'))
 
     return 'wrong password'

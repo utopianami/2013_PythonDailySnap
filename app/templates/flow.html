@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Daily Snap</title>
-    <link rel="stylesheet" type="text/css" href="/static/css/flow.css" >
-    <link rel="stylesheet" type="text/css" href="/static/css/button.css" >
-    <link rel="stylesheet" type="text/css" href="/static/css/snap.css" >
-    <link rel="stylesheet" type="text/css" href="/static/css/write.css" >
+    <link rel="stylesheet" type="text/css" href="../static/css/flow.css" >
+    <link rel="stylesheet" type="text/css" href="../static/css/button.css" >
+    <link rel="stylesheet" type="text/css" href="../static/css/snap.css" >
+    <link rel="stylesheet" type="text/css" href="../static/css/write.css" >
     <script src="/static/js/snap.js"></script>
     <script src="/static/js/write.js"></script>
 
@@ -26,7 +26,7 @@
         <button onclick="hideWrite('write', 'bg');">닫기</button>
     </div>
     <div id="top">
-        <div id = "moveLeft"><img src="/static/images/moveleft.png"></div>
+        <div id = "moveLeft"><img src="../static/images/moveleft.png"></div>
         <div id = "mid">
             <div id = "topButton">
                 <a onclick="showWrite('write', 'bg');" class="hi-icon hi-icon-pencil">write</a>
@@ -40,7 +40,7 @@
                     {%  for snap in snapList %}
                     <li>
                         <figure>
-                            <div><img src="/static/uploads/{{snap.img}}" alt="{{snap.img}}"></div>
+                            <div><img src="../static/uploads/{{snap.img}}" alt="{{snap.img}}"></div>
                              <figcaption>                        
                                 <h3>{{ snap.title }}</h3>
                                 <span>{{ snap.mini }}</span>
@@ -51,7 +51,7 @@
                     {% endfor %}
                     <li>
                         <figure>
-                            <div><img src="/static/images/5.png" alt="img05"></div>
+                            <div><img src="../static/images/5.png" alt="img05"></div>
                              <figcaption>
                                 <h3>11/3</h3>
                                 <span>밤 막걸리야~~~~~~~밤먹거리는 꿀맛같다. @고속터미널 서래전</span>
@@ -74,7 +74,7 @@
                     </li>
                                         <li>
                         <figure>
-                            <div><img src="/static/images/5.png" alt="img05"></div>
+                            <div><img src="../static/images/5.png" alt="img05"></div>
                              <figcaption>
                                 <h3>11/3</h3>
                                 <span>밤 막걸리야~~~~~~~밤먹거리는 꿀맛같다. @고속터미널 서래전</span>
@@ -122,7 +122,7 @@
                 </ul>
             </div>
         </div>
-        <div id = "moveRight"><img src="/static/images/moveright.png"></div>
+        <div id = "moveRight"><img src="../static/images/moveright.png"></div>
     </div>
 
     <div id="footer">

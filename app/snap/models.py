@@ -11,10 +11,11 @@ class Snap(db.Model):
     mini = db.Column(db.String(200))
     imgName = db.Column(db.String(200))
 
-    def __init__(self, title, mini, imgName):
+    def __init__(self, title, mini, imgName, user_id):
         self.title = title
         self.mini = mini
         self.imgName = imgName
+        self.user_id = user_id
 
 
     def setSnap(self, imgName):

@@ -14,6 +14,10 @@ db = SQLAlchemy(app)
 def index():
 	return render_template('home.html')
 
+@app.route('/test/<name>')
+def test(name):
+	return '%s()' % name
+
 
 from app.users.views import mod as usersModule
 from app.snap.views import mod as snapModule
