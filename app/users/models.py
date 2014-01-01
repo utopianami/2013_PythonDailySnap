@@ -8,7 +8,6 @@ class User(db.Model):
     userEmail = db.Column(db.String(80), unique=True)
     userPassword = db.Column(db.String(80))
     snap = db.relationship('Snap', backref='user', lazy='dynamic')
-    test = "a"
 
 
 

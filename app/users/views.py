@@ -1,4 +1,4 @@
-from flask import Blueprint, request, render_template, flash, g, session, redirect, url_for
+from flask import Blueprint, request, render_template, flash, g, session, redirect, url_for, json
 from flask_login import (LoginManager, login_required, login_user, 
                          current_user, logout_user, UserMixin)
 
@@ -32,9 +32,9 @@ def login():
         user = User.query.filter_by(userEmail = email).first()
 
         if user == None:
-            return 'no exist'
+            return 'alertNoId'
         if user.userPassword == password:
             session['user_id'] = user.getId()
             return redirect(url_for('flow.flows'))
 
-    return 'wrong password'
+    return 'alertWrongPassword'

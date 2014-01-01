@@ -14,9 +14,9 @@ db = SQLAlchemy(app)
 def index():
 	return render_template('home.html')
 
-@app.route('/test/<name>')
-def test(name):
-	return '%s()' % name
+@app.route('/test')
+def test():
+	return 'alertMessageId()'
 
 
 from app.users.views import mod as usersModule
