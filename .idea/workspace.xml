@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/static/js/home.js" line="104" mnemonic="9" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="c679bdb4-c58a-4544-8efc-f8061e09401f" name="Default" comment="" />
     <ignored path="dailySnapPython.iws" />
@@ -15,7 +12,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/dailySnapPython$dailySnapPython.coverage" NAME="dailySnapPython Coverage Results" MODIFIED="1388582485371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/dailySnapPython$dailySnapPython.coverage" NAME="dailySnapPython Coverage Results" MODIFIED="1389148313488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -37,7 +34,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/flow/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="8" selection-start="317" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="360">
+            <state line="11" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -46,7 +43,7 @@
       <file leaf-file-name="run.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="50" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="135">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
               <folding />
             </state>
           </provider>
@@ -55,7 +52,7 @@
       <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="9" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
+            <state line="1" column="43" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="750">
               <folding />
             </state>
           </provider>
@@ -71,29 +68,38 @@
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/users/models.py">
+        <entry file="file://$PROJECT_DIR$/app/snap/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="66" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="405">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/users/views.py">
+        <entry file="file://$PROJECT_DIR$/app/snap/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="32" selection-start="850" selection-end="850" vertical-scroll-proportion="0.41031942" vertical-offset="253" max-vertical-offset="675">
+            <state line="47" column="16" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.5993322" vertical-offset="346" max-vertical-offset="945">
               <folding>
-                <element signature="e#0#97#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snap.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/static/js/snap.js">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/users/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="18" column="16" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -102,16 +108,16 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="35" selection-start="669" selection-end="669" vertical-scroll-proportion="-2.5" vertical-offset="285" max-vertical-offset="915">
+            <state line="9" column="72" selection-start="385" selection-end="385" vertical-scroll-proportion="17.125" vertical-offset="546" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="flow.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/flow.html">
+      <file leaf-file-name="local.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file:///Library/Python/2.7/site-packages/Werkzeug-0.9.4-py2.7.egg/werkzeug/local.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="45" selection-start="3408" selection-end="3408" vertical-scroll-proportion="-8.125" vertical-offset="945" max-vertical-offset="2190">
+            <state line="367" column="0" selection-start="11745" selection-end="11745" vertical-scroll-proportion="0.0" vertical-offset="5339" max-vertical-offset="6195">
               <folding />
             </state>
           </provider>
@@ -134,15 +140,15 @@
         <option value="$PROJECT_DIR$/app/templates/signUp.html" />
         <option value="$PROJECT_DIR$/app/templates/flow.html" />
         <option value="$PROJECT_DIR$/app/snap/models.py" />
-        <option value="$PROJECT_DIR$/app/snap/views.py" />
         <option value="$PROJECT_DIR$/app/flow/views.py" />
         <option value="$PROJECT_DIR$/app/snap/test.py" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/app/__init__.py" />
         <option value="$PROJECT_DIR$/app/users/models.py" />
-        <option value="$PROJECT_DIR$/app/templates/home.html" />
         <option value="$PROJECT_DIR$/app/users/views.py" />
         <option value="$PROJECT_DIR$/app/static/js/home.js" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/app/templates/home.html" />
+        <option value="$PROJECT_DIR$/app/snap/views.py" />
       </list>
     </option>
   </component>
@@ -279,29 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dailySnapPython" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daily" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="snap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -331,8 +315,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -425,9 +409,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -449,6 +430,9 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -546,7 +530,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="22" width="1238" height="778" extended-state="0" />
+    <frame x="42" y="22" width="1238" height="778" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -554,11 +538,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32950193" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.6704981" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24946237" sideWeight="0.6704981" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18497577" sideWeight="0.670571" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12116317" sideWeight="0.95168376" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329429" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.04831625" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,41 +563,53 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/snap/views.py">
+    <entry file="file://$PROJECT_DIR$/app/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="50" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="585" />
+        <state line="15" column="12" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/flow/__init__.py">
+    <entry file="file://$PROJECT_DIR$/app/static/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/snap/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/snap/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+        <state line="106" column="16" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.0" vertical-offset="1086" max-vertical-offset="1785">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
+    <entry file="file://$PROJECT_DIR$/app/static/js/rolling.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="699" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/signUp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="31" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="585">
+          <folding>
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1387291656000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+    <entry file="file://$PROJECT_DIR$/app/templates/flow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+        <state line="42" column="28" selection-start="1597" selection-end="1669" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="2190">
           <folding />
         </state>
       </provider>
@@ -625,67 +621,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/users/models.py">
+    <entry file="file://$PROJECT_DIR$/app/snap/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="66" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/flow/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="8" selection-start="317" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="50" selection-start="91" selection-end="91" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/rolling.js">
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="407">
+        <state line="1" column="43" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/flow.html">
+    <entry file="file://$PROJECT_DIR$/app/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="45" selection-start="3408" selection-end="3408" vertical-scroll-proportion="-8.125" vertical-offset="945" max-vertical-offset="2190">
+        <state line="18" column="16" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/snap.js">
+    <entry file="file:///Library/Python/2.7/site-packages/Werkzeug-0.9.4-py2.7.egg/werkzeug/local.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="394">
+        <state line="367" column="0" selection-start="11745" selection-end="11745" vertical-scroll-proportion="0.0" vertical-offset="5250" max-vertical-offset="6195">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="35" selection-start="669" selection-end="669" vertical-scroll-proportion="-2.5" vertical-offset="285" max-vertical-offset="915">
+        <state line="9" column="72" selection-start="385" selection-end="385" vertical-scroll-proportion="17.125" vertical-offset="546" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/home.js">
+    <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="16" selection-start="2816" selection-end="2816" vertical-scroll-proportion="0.5208845" vertical-offset="1378" max-vertical-offset="1785">
+        <state line="3" column="30" selection-start="112" selection-end="112" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/users/views.py">
+    <entry file="file://$PROJECT_DIR$/app/flow/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="32" selection-start="850" selection-end="850" vertical-scroll-proportion="0.41031942" vertical-offset="253" max-vertical-offset="675">
+        <state line="11" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/snap/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="16" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.5993322" vertical-offset="346" max-vertical-offset="945">
           <folding>
-            <element signature="e#0#97#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
